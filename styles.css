@@ -1,0 +1,29 @@
+:root { --gap: 1rem; }
+
+body { 
+  background: #f8fafc; 
+}
+
+.app { 
+  max-width: 1100px; margin: 2rem auto; 
+}
+
+.card { 
+  border-radius: 1rem; 
+}
+
+.brand { 
+  font-weight: 800; letter-spacing: .3px; 
+}
+
+.muted { 
+  color: #6b7280; 
+}
+
+.orders-empty { 
+  color: #6b7280; font-style: italic; 
+}
+
+@media (max-width: 576px) {
+  .grid-sm { display: grid; gap: var(--gap); }
+}
